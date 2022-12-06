@@ -4,7 +4,7 @@ I am currently studying computer science at Windesheim University and working as
 
 ## Projects
 
-- [Mozaïek Kerstpakketten](https://kerstpakket.mozaiek.nl]: A website where users can sign up to receive a Christmas package. Users can either make the package themselves or choose to have someone in their neighborhood make and deliver the package.
+- [Mozaïek Kerstpakketten](https://kerstpakket.mozaiek.nl): A website where users can sign up to receive a Christmas package. Users can either make the package themselves or choose to have someone in their neighborhood make and deliver the package.
 - [De Nieuwe Psalmberijming app](https://apps.apple.com/nl/app/de-nieuwe-psalmberijming/id1610551358): A mobile app that contains all the melodies and rhymes of De Nieuwe Psalmberijming.
 - [Compagnon](https://github.com/Joehoel/compagnon): A multi-functional Discord bot built for a Discord server with a closed friend group.
 
