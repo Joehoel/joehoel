@@ -1,6 +1,6 @@
 ## About me
 
-I am currently studying computer science at Windesheim University and working as a junior developer at De Indruk. As a full stack developer and app developer, I have experience in technologies such as React, React Native, TypeScript, Vue, and Svelte. I have a strong background in web development, with a focus on building user-friendly and performant applications. I am also skilled in mobile development, and have experience creating cross-platform apps that can be deployed to both iOS and Android devices.
+I am currently studying computer science at [Windesheim University](https://www.windesheim.nl/) and working as a junior developer at [De Indruk](https://www.deindruk.nl/). As a full stack developer and app developer, I have experience in technologies such as React, React Native, TypeScript, Vue, and Svelte. I have a strong background in web development, with a focus on building user-friendly and performant applications. I am also skilled in mobile development, and have experience creating cross-platform apps that can be deployed to both iOS and Android devices.
 
 ## Projects
 
