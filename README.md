@@ -1,9 +1,9 @@
 ## 👋🏻 About me
 
-- I am currently studying computer science at [`Windesheim University`](https://www.windesheim.nl/) -
-- and working as a junior developer at [`De Indruk`](https://www.deindruk.nl/). As a full stack developer and app developer, 
-- I have a strong background in web development, with a focus on building user-friendly and performant applications. 
-- I am also skilled in mobile development, and have experience creating cross-platform apps that can be deployed to both iOS and Android devices.
+- Currently studying computer science at [`Windesheim University`](https://www.windesheim.nl/)
+- Working as a junior developer at [`De Indruk`](https://www.deindruk.nl/). As a full stack developer and app developer, 
+- Strong background in web development, with a focus on building user-friendly and performant applications. 
+- Skilled in mobile development, and experience in creating cross-platform apps that can be deployed to both iOS and Android devices.
 
 ### 🚀 Programming Languages
 - [`TypeScript`]() is my favourite programming language. I write TypeScript like I speak English.
