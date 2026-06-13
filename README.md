@@ -1,1 +1,5 @@
-[![Joëls GitHub stats](https://github-readme-stats.vercel.app/api?username=joehoel&show_icons=true&theme=dark&hide_rank=true&include_all_commits=true)](https://github.com/anuraghazra/github-readme-stats)
+### Hi, I'm Joël 👋
+
+![Joël's GitHub metrics](./github-metrics.svg)
+
+<sub>Generated daily with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> — committed straight into this repo, so there's no external service left to break.</sub>
