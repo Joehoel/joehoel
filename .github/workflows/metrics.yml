@@ -30,19 +30,15 @@ jobs:
           config_timezone: Europe/Amsterdam
 
           # --- look & content ---
+          # Strip everything: no name/header, no activity, community,
+          # repositories or metadata sections.
           template: classic
-          base: header, activity, community, repositories, metadata
+          base: ""
 
-          # Top languages used across repos
-          plugin_languages: yes
-          plugin_languages_limit: 8
-          plugin_languages_sections: most-used
-
-          # Full-year contribution calendar (isometric)
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-          # Coding habits / time-of-day charts
+          # Only the habits *facts* — this is where "Commits streaks"
+          # (current + best) and "Commits per day" live.
+          # Charts are disabled (the "Recent coding habits" graphs).
           plugin_habits: yes
+          plugin_habits_facts: yes
+          plugin_habits_charts: no
           plugin_habits_from: 200
-          plugin_habits_charts: yes
