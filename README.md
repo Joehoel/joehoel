@@ -1,3 +1,3 @@
-![GitHub commit streaks & commits per day](./github-metrics.svg)
+![GitHub commit streak](./github-streak.svg)
 
-<sub>Generated daily with <a href="https://github.com/lowlighter/metrics">lowlighter/metrics</a> — committed straight into this repo, so there's no external service left to break.</sub>
+<sub>Refreshed daily and committed into this repo, so there's no live service the README can break on.</sub>

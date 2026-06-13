@@ -1,0 +1,43 @@
+name: Profile stats
+
+on:
+  # Refresh every day at 06:00 UTC
+  schedule:
+    - cron: "0 6 * * *"
+  # Allow manual runs from the Actions tab
+  workflow_dispatch:
+  # Regenerate when this workflow changes
+  push:
+    branches: ["main"]
+    paths: [".github/workflows/profile-stats.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  streak:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch commit-streak card
+        run: |
+          tmp="$(mktemp)"
+          # streak-stats is GraphQL-based and stable. If it's ever down,
+          # we keep the previously committed SVG instead of writing junk.
+          if curl -fsSL --retry 4 --retry-delay 5 --max-time 30 \
+               "https://streak-stats.demolab.com/?user=Joehoel&theme=dark&hide_border=true&card_width=480&date_format=M%20j%5B%2C%20Y%5D" \
+               -o "$tmp" && head -c 64 "$tmp" | grep -q "<svg"; then
+            mv "$tmp" github-streak.svg
+          else
+            echo "streak-stats unavailable — keeping previous github-streak.svg"
+            rm -f "$tmp"
+          fi
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || git commit -m "Update commit-streak card [skip ci]"
+          git push
